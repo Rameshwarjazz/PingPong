@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(89, 89, 240);
+    height: 80vh;
+}
+#game-container {
+    background-color: rgba(46, 46, 163, 0.993);
+    position: relative;
+    width: 600px;
+    height: 500px;
+    margin: 100px auto;
+    box-shadow: 0px 0px 10px 10px whitesmoke;
+    border: 1px solid black;
+    overflow: hidden;
+    opacity: 0.9;
+  }
+  
+  #ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(90, 221, 155);
+    border-radius: 50%;
+    left: 190px;
+    top: 190px;
+    box-shadow: 0px 0px 8px 8px  rosybrown;
+  }
+  
+  #rod-top,
+  #rod-bottom {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: rgb(240, 231, 181);
+    box-shadow: 0px 0px 8px 8px  rgb(89, 218, 228);
+
+  }
+  
+  #rod-top {
+    top: 10px;
+    left: 150px;
+  }
+  
+  #rod-bottom {
+    bottom: 10px;
+    left: 150px;
+  }
+  
